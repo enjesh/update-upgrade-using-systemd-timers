@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Update and Upgrade every 2 weeks
+
+[Timer]
+OnCalendar=weekly
+RandomizedDelaySec=2w
+AccuracySec=1h
+Persistent=true
+
+[Install]
+WantedBy=timers.target
