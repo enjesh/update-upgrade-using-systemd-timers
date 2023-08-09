@@ -1,4 +1,4 @@
-I would use a bash script to Update and Upgrade an ubuntu VM and use a cron job to schedule the script to run every two weeks. Now I am using systemd timers to achieve the same result and thought to document it.
+### I would use a bash script to Update and Upgrade an ubuntu VM and use a cron job to schedule the script to run every two weeks. Now I am using systemd timers to achieve the same result and thought to document it.
 
 ## Secure System Updates Automation
 
@@ -41,8 +41,5 @@ Pull requests are welcome! Feel free to enhance, optimize, or share your insight
 ### Let's Secure Together:
 
 Strengthen your defense against vulnerabilities and ensure your systems are up-to-date. Clone this repository and automate your updates today!
-
-[![GitHub Stars](https://img.shields.io/github/stars/enjesh/ubuntu-update-automation.svg)](https://github.com/enjesh/ubuntu-update-automation/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/enjesh/ubuntu-update-automation.svg)](https://github.com/enjesh/ubuntu-update-automation/network/members)
 
 ---
