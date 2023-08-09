@@ -8,9 +8,9 @@
 
 ✅ **Bash Script:** Execute updates and upgrades with a single command.
 
-✅ **Systemd Timer:** Fine-tuned scheduling and integration.
-
 ✅ **Cron Jobs:** Traditional automation for routine maintenance.
+
+✅ **Systemd Timer:** Fine-tuned scheduling and integration.
 
 ### Getting Started:
 
