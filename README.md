@@ -23,6 +23,8 @@
    - Add a cron job using `crontab -e`. Example: `0 0 */2 * * /path/to/update_upgrade.sh >> /var/log/update_upgrade.log 2>&1` (Runs every 2 weeks at midnight).
 
 3. **Systemd Timer:**
+   - `sudo vi /etc/systemd/system/update-upgrade.service`
+   - `sudo vi /etc/systemd/system/update-upgrade.timer`
    - Explore the `update-upgrade.service` and `update-upgrade.timer` files.
    - Enable and start the timer with: `sudo systemctl enable update-upgrade.timer` and `sudo systemctl start update-upgrade.timer`.
 
